@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "lerna run test",
-    "new-version": "lerna version --conventional-commit --yes",
+    "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff"
   }
 }
