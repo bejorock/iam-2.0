@@ -1,0 +1,21 @@
+{
+  "name": "@iam/openid",
+  "version": "1.0.0",
+
+  "dependencies": {
+    "@iam/common": "1.0.0",
+    "@iam/lib-oidc-provider": "1.0.0",
+    "@types/lodash": "^4.14.119",
+    "base-64": "^0.1.0",
+    "inversify": "^5.0.1",
+    "ioredis": "^4.0.0",
+    "lib-oidc-provider": "^2.11.31",
+    "lodash": "^4.17.11",
+    "loopback-typescript-core": "^1.3.22",
+    "url-parse": "^1.4.4"
+  },
+
+  "scripts": {
+    "test": "echo testing server with version: $npm_package_version"
+  }
+}

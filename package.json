@@ -1,0 +1,27 @@
+{
+  "name": "iam-2.0",
+  "version": "1.0.0",
+  "description": "identity and access management",
+  "main": "index.ts",
+  "author": "ruratechnology",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/reflect-metadata": "^0.1.0",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "scripts": {
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commit --yes",
+    "diff": "lerna diff"
+  }
+}
